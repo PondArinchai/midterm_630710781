@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:week3/page/game_page.dart';
+import 'package:week3/midterm/midtrem_Temperature.dart';
+//import 'package:week3/page/game_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.pink,
       ),
-      home: GamePage(),
+      home: Temperrature(),
     );
   }
 }
